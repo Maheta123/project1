@@ -1,0 +1,189 @@
+[
+  {
+    "question": "What is data preprocessing?",
+    "answer": "Data preprocessing involves cleaning and transforming raw data into a usable format for modeling."
+  },
+  {
+    "question": "What is missing data and how do you handle it?",
+    "answer": "Missing data can be handled by removing records, imputing values, or using models that handle missingness."
+  },
+  {
+    "question": "What is data normalization?",
+    "answer": "Data normalization scales features to a standard range, typically [0,1] or [-1,1]."
+  },
+  {
+    "question": "What is data standardization?",
+    "answer": "Standardization transforms features to have zero mean and unit variance."
+  },
+  {
+    "question": "What is feature encoding?",
+    "answer": "Feature encoding converts categorical data into numerical form, such as one-hot encoding or label encoding."
+  },
+  {
+    "question": "What is feature selection?",
+    "answer": "Feature selection involves identifying and retaining only the most relevant features for model training."
+  },
+  {
+    "question": "What is outlier detection?",
+    "answer": "Outlier detection is the process of identifying abnormal data points that deviate significantly from other observations."
+  },
+  {
+    "question": "What is data imbalance and how can it be addressed?",
+    "answer": "Data imbalance can be addressed using oversampling, undersampling, or algorithmic techniques like SMOTE."
+  },
+  {
+    "question": "What are the key steps in model creation?",
+    "answer": "Model creation involves data preprocessing, selecting an algorithm, training the model, and evaluating it."
+  },
+  {
+    "question": "What is model training?",
+    "answer": "Model training involves fitting the model to training data by optimizing its parameters."
+  },
+  {
+    "question": "What is model validation?",
+    "answer": "Model validation is used to tune hyperparameters and assess model performance on unseen data."
+  },
+  {
+    "question": "What is model testing?",
+    "answer": "Model testing evaluates final model performance using the test dataset."
+  },
+  {
+    "question": "What is overfitting in model creation?",
+    "answer": "Overfitting occurs when the model memorizes training data and fails to generalize to new data."
+  },
+  {
+    "question": "What is underfitting in model creation?",
+    "answer": "Underfitting occurs when a model is too simple to capture the underlying pattern of the data."
+  },
+  {
+    "question": "What is a decision tree?",
+    "answer": "A decision tree is a flowchart-like model that splits data based on feature values to make predictions."
+  },
+  {
+    "question": "What are the advantages of decision trees?",
+    "answer": "They are easy to interpret, require little preprocessing, and can handle both numerical and categorical data."
+  },
+  {
+    "question": "What are the disadvantages of decision trees?",
+    "answer": "They are prone to overfitting and can create complex trees with noisy data."
+  },
+  {
+    "question": "What is pruning in decision trees?",
+    "answer": "Pruning removes unnecessary branches to prevent overfitting and improve model generalization."
+  },
+  {
+    "question": "What is entropy in decision trees?",
+    "answer": "Entropy is a measure of impurity used to select the best feature for splitting in algorithms like ID3."
+  },
+  {
+    "question": "What is the ID3 algorithm?",
+    "answer": "ID3 is a decision tree algorithm that uses information gain to decide splits. It works only for classification tasks."
+  },
+  {
+    "question": "What is the CART algorithm?",
+    "answer": "CART builds binary decision trees using the Gini index and can be used for both classification and regression."
+  },
+  {
+    "question": "What is the difference between ID3 and CART?",
+    "answer": "ID3 uses information gain and handles only classification; CART uses the Gini index and supports both classification and regression."
+  },
+  {
+    "question": "How does ID3 choose the best feature to split?",
+    "answer": "ID3 chooses the feature that provides the highest information gain after the split."
+  },
+  {
+    "question": "How does CART perform regression?",
+    "answer": "CART splits data and fits a constant value in the leaf nodes by minimizing mean squared error."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning (ML) is a subset of AI where algorithms learn patterns from data and make decisions without explicit programming."
+  },
+  {
+    "question": "What are the different types of Machine Learning?",
+    "answer": "Three main types: Supervised (trained with labelled data), Unsupervised (find hidden patterns in unlabeled data), and Reinforcement Learning (learns via rewards and penalties)."
+  },
+  {
+    "question": "Explain the difference between supervised and unsupervised learning.",
+    "answer": "Supervised learning uses labeled data with input-output pairs; unsupervised learning works with unlabeled data to discover patterns."
+  },
+  {
+    "question": "What is the difference between classification and regression?",
+    "answer": "Classification predicts discrete labels (e.g., spam vs. not spam), while regression predicts continuous values (e.g., house prices)."
+  },
+  {
+    "question": "How can you prevent overfitting?",
+    "answer": "Use simpler models, regularization (L1/L2), cross-validation, pruning (for trees), or early stopping."
+  },
+  {
+    "question": "What are the different data splits in ML?",
+    "answer": "Training Set (for building), Validation Set (for tuning hyperparameters), and Test Set (for final evaluation)."
+  },
+  {
+    "question": "Explain bias‑variance tradeoff.",
+    "answer": "High bias leads to underfitting (too simple), high variance leads to overfitting (too complex). The goal is to balance both."
+  },
+  {
+    "question": "What is a confusion matrix?",
+    "answer": "A table showing true positives, false positives, true negatives, and false negatives to evaluate classification performance."
+  },
+  {
+    "question": "Explain the difference between KNN and K‑Means clustering.",
+    "answer": "KNN is supervised and classifies based on nearest neighbours; K‑Means is unsupervised and groups data into clusters based on similarity."
+  },
+  {
+    "question": "What are some real-life applications of clustering algorithms?",
+    "answer": "Used for customer segmentation, recommendation systems, anomaly detection, image compression, healthcare grouping, and document categorization."
+  },
+  {
+    "question": "How do you choose optimal number of clusters?",
+    "answer": "Use methods like the Elbow Method, Silhouette Score, and Gap Statistic for guidance."
+  },
+  {
+    "question": "What is feature engineering and why is it important?",
+    "answer": "Creating or transforming features can improve model accuracy by helping it capture relevant patterns better."
+  },
+  {
+    "question": "What is hyperparameter tuning?",
+    "answer": "It's the process of optimizing model performance by adjusting settings like learning rate, number of layers, or algorithm-specific options."
+  },
+  {
+    "question": "Explain the difference between bagging and boosting.",
+    "answer": "Bagging trains multiple models on random subsets and averages results (e.g., Random Forest). Boosting trains models sequentially where each corrects errors of the previous (e.g., AdaBoost)."
+  },
+  {
+    "question": "What is ensemble learning?",
+    "answer": "Combining multiple ML models to improve overall accuracy and robustness by reducing bias and variance."
+  },
+  {
+    "question": "What models are used for supervised vs unsupervised tasks?",
+    "answer": "Supervised: Decision Trees, Random Forests, SVM, Logistic Regression. Unsupervised: K‑Means, Hierarchical Clustering, Association Rules."
+  },
+  {
+    "question": "What is a loss function?",
+    "answer": "It measures how well a model’s predictions match the true values. The goal is to minimize this loss during training."
+  },
+  {
+    "question": "What is the difference between batch learning and online learning?",
+    "answer": "Batch learning trains on the entire dataset at once. Online learning updates the model incrementally as new data arrives."
+  },
+  {
+    "question": "Define the curse of dimensionality.",
+    "answer": "As feature dimensions increase, data becomes sparse, distance metrics lose meaning, and algorithms suffer performance drops."
+  },
+  {
+    "question": "What is PCA?",
+    "answer": "Principal Component Analysis (PCA) reduces dimensionality by transforming data to components that capture maximum variance."
+  },
+  {
+    "question": "What are some Python libraries used in ML?",
+    "answer": "Common libraries: NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn, SciPy."
+  },
+  {
+    "question": "What is deep learning?",
+    "answer": "A subset of ML using multi-layered neural networks to learn complex features with minimal manual feature engineering."
+  }
+
+  
+]
+
